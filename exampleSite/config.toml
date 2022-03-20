@@ -1,3 +1,4 @@
+languageCode "de"
 baseURL = "https://kat-zug-staging.netlify.com"
 disableLanguages = ["fr"]
 disqusShortname = ""

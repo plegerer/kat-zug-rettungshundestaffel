@@ -5,13 +5,52 @@ paginate = "6"
 summaryLength = "15"
 theme = "meghna-hugo"
 title = "Meghna"
+[Languages.de]
+contentDir = "content/german"
+copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
+home = "Home"
+languageCode = "de-at"
+languageName = "De"
+weight = 1
+[[Languages.de.menu.main]]
+name = "Über uns"
+url = "#about"
+weight = 1
+[[Languages.de.menu.main]]
+name = "Dienstleistung"
+url = "#services"
+weight = 2
+[[Languages.de.menu.main]]
+name = "Portfolio"
+url = "#portfolio"
+weight = 3
+[[Languages.de.menu.main]]
+name = "Staffel"
+url = "#team"
+weight = 4
+[[Languages.de.menu.main]]
+name = "Tarife"
+url = "#pricing"
+weight = 5
+[[Languages.de.menu.main]]
+name = "Blog"
+url = "#blog"
+weight = 6
+[[Languages.de.menu.main]]
+name = "Kontakt"
+url = "#contact"
+weight = 7
+[[Languages.de.menu.main]]
+name = "themefisher"
+url = "https://themefisher.com/"
+weight = 8
 [Languages.en]
 contentDir = "content/english"
 copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
 home = "Home"
 languageCode = "en-us"
 languageName = "En"
-weight = 1
+weight = 2
 [[Languages.en.menu.main]]
 name = "about"
 url = "#about"
@@ -64,7 +103,7 @@ copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher
 home = "Accueil"
 languageCode = "fr-fr"
 languageName = "Fr"
-weight = 2
+weight = 3
 [[Languages.fr.menu.main]]
 name = "sur"
 url = "#about"
@@ -94,45 +133,6 @@ name = "contact"
 url = "#contact"
 weight = 7
 [[Languages.fr.menu.main]]
-name = "themefisher"
-url = "https://themefisher.com/"
-weight = 8
-[Languages.de]
-contentDir = "content/german"
-copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
-home = "Home"
-languageCode = "de-at"
-languageName = "De"
-weight = 3
-[[Languages.de.menu.main]]
-name = "Über uns"
-url = "#about"
-weight = 1
-[[Languages.de.menu.main]]
-name = "Dienstleistung"
-url = "#services"
-weight = 2
-[[Languages.de.menu.main]]
-name = "Portfolio"
-url = "#portfolio"
-weight = 3
-[[Languages.de.menu.main]]
-name = "Staffel"
-url = "#team"
-weight = 4
-[[Languages.de.menu.main]]
-name = "Tarife"
-url = "#pricing"
-weight = 5
-[[Languages.de.menu.main]]
-name = "Blog"
-url = "#blog"
-weight = 6
-[[Languages.de.menu.main]]
-name = "Kontakt"
-url = "#contact"
-weight = 7
-[[Languages.de.menu.main]]
 name = "themefisher"
 url = "https://themefisher.com/"
 weight = 8

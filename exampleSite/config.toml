@@ -97,6 +97,45 @@ weight = 7
 name = "themefisher"
 url = "https://themefisher.com/"
 weight = 8
+[Languages.de]
+contentDir = "content/german"
+copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
+home = "Home"
+languageCode = "de-at"
+languageName = "De"
+weight = 3
+[[Languages.de.menu.main]]
+name = "Über uns"
+url = "#about"
+weight = 1
+[[Languages.de.menu.main]]
+name = "Dienstleistung"
+url = "#services"
+weight = 2
+[[Languages.de.menu.main]]
+name = "Portfolio"
+url = "#portfolio"
+weight = 3
+[[Languages.de.menu.main]]
+name = "Staffel"
+url = "#team"
+weight = 4
+[[Languages.de.menu.main]]
+name = "Tarife"
+url = "#pricing"
+weight = 5
+[[Languages.de.menu.main]]
+name = "Blog"
+url = "#blog"
+weight = 6
+[[Languages.de.menu.main]]
+name = "Kontakt"
+url = "#contact"
+weight = 7
+[[Languages.de.menu.main]]
+name = "themefisher"
+url = "https://themefisher.com/"
+weight = 8
 [params]
 author = "Themefisher"
 description = "Responsive Multipurpose Parallax Hugo Template"

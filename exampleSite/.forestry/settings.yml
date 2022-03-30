@@ -4,48 +4,16 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: heading
-  label: Blog Post
 - type: directory
-  path: exampleSite/content/german/blog
-  label: Post (de)
-  create: documents
-  match: "**/*"
-<<<<<<< HEAD
-  new_doc_ext: md
-=======
->>>>>>> 09fd9636a95129e6b125447673f152e693c413f2
-  templates:
-  - post
-- type: heading
-  label: Author
+  path: exampleSite/content
+  label: Pages
+  create: all
+  match: "*"
 - type: directory
-  path: exampleSite/content/german/author
-  label: Author (de)
-  create: documents
-  match: "**/*"
-  templates:
-  - author
-- type: heading
-  label: Data
-- type: directory
-  path: exampleSite/data
-  label: Homepage
+  path: exampleSite/content/german
+  label: German
   create: all
   match: "**/*"
-- type: directory
-  path: exampleSite/i18n
-  label: i18n
-  create: documents
-  match: "**/*"
-- type: heading
-  label: Configuration
-- type: directory
-  path: exampleSite
-  label: Configuration
-  create: all
-  match: "*.toml"
-  new_doc_ext: toml
 upload_dir: exampleSite/static/images
 public_path: "/images"
 front_matter_path: ''

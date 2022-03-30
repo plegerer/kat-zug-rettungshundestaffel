@@ -6,9 +6,9 @@
   HUGO_VERSION = "0.87.0"
   HUGO_THEME = "repo"
   HUGO_BASEURL = "/"
-  
+   
 [[headers]]
-  # Define which paths this specific [[headers]] block will cover.
-  for = "/*"
-    [headers.values]
+  for = "/public/*"
+  [headers.values]
     Access-Control-Allow-Origin = "*"
+

@@ -11,10 +11,6 @@ sections:
   label: Post (de)
   create: documents
   match: "**/*"
-<<<<<<< HEAD
-  new_doc_ext: md
-=======
->>>>>>> 09fd9636a95129e6b125447673f152e693c413f2
   templates:
   - post
 - type: heading

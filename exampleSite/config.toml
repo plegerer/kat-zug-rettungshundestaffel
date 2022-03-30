@@ -1,13 +1,12 @@
 DefaultContentLanguage = "de"
-languageCode = "de-at"
-
-baseURL = "https://kat-zug-staging.netlify.app"
+baseURL = "https://kat-zug-staging.netlify.com"
 disableLanguages = ["en"]
 disqusShortname = ""
+languageCode = "de-at"
 paginate = "6"
 summaryLength = "15"
 theme = "meghna-hugo"
-title = ""
+title = "Meghna"
 [Languages.de]
 contentDir = "content/german"
 copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
@@ -51,7 +50,7 @@ weight = 8
 author = "Themefisher"
 description = "Responsive Multipurpose Parallax Hugo Template"
 google_analytics_id = ""
-logo= "images/logo.png"
+logo = "images/logo.png"
 post_share = true
 [params.cookies]
 enable = false

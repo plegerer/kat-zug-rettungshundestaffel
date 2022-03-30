@@ -1,7 +1,7 @@
 DefaultContentLanguage = "de"
 languageCode = "de-at"
 
-baseURL = "https://kat-zug-staging.netlify.com"
+baseURL = "https://kat-zug-staging.netlify.app"
 disableLanguages = ["en"]
 disqusShortname = ""
 paginate = "6"

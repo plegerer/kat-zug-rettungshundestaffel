@@ -4,9 +4,8 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: heading
-  label: Blog Post
 - type: directory
+<<<<<<< HEAD
   path: exampleSite/content/german/blog
   label: Post (de)
   create: documents
@@ -27,21 +26,17 @@ sections:
 - type: directory
   path: exampleSite/data
   label: Homepage
+=======
+  path: exampleSite/content
+  label: Pages
+>>>>>>> 42e87f6e97e108424be5349efd0a2253b937a066
+  create: all
+  match: "*"
+- type: directory
+  path: exampleSite/content/german
+  label: German
   create: all
   match: "**/*"
-- type: directory
-  path: exampleSite/i18n
-  label: i18n
-  create: documents
-  match: "**/*"
-- type: heading
-  label: Configuration
-- type: directory
-  path: exampleSite
-  label: Configuration
-  create: all
-  match: "*.toml"
-  new_doc_ext: toml
 upload_dir: exampleSite/static/images
 public_path: "/images"
 front_matter_path: ''

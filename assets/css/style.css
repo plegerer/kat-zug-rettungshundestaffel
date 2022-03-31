@@ -89,6 +89,10 @@ a:hover {
   margin-bottom: 0 !important;
 }
 
+.kill2-margin-bottom {
+  margin-bottom: -20 !important;
+}
+
 .padding-0 {
   padding: 0 !important;
 }

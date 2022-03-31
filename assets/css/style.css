@@ -229,7 +229,7 @@ a:hover {
 }
 
 .btn-main:hover {
-  background: #2c9091;
+  background: #b11414;
   color: #fff;
 }
 
@@ -1060,7 +1060,7 @@ a:hover {
 }
 
 .member-photo .mask {
-  background-color: rgba(87, 203, 204, 0.7);
+  background-color: rgba(177, 20, 20, 1);
   position: absolute;
   text-align: center;
   height: 100%;

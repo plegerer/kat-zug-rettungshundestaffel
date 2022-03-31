@@ -16,7 +16,7 @@ languageName = "De"
 weight = 1
 [[Languages.de.menu.main]]
 name = "Über uns"
-url = "#about"
+url = "#about2"
 weight = 1
 [[Languages.de.menu.main]]
 name = "Rettungshundearbeit"

@@ -9,7 +9,7 @@ service:
       content : Um die Aufgaben eines Rettungshundeteams erfolgreich erfüllen zu können, werden an Hundeführer und Hund bestimmte Mindestanforderungen gestellt!
       
     # service item loop
-    - name : Responsive Design
+    - name : Ausbildung
       icon : ti-layout # themify icon pack : https://themify.me/themify-icons
       content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
       
@@ -17,16 +17,3 @@ service:
     - name : Trainingsablauf
       icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
       content : Training 14-tägig, jeweils Sonntags von 8:00 – 16:00 Uhr
-
-Mindestens zweimal jährlich mehrtägige Übungen mit wirklichkeitsnahen Einsatzübungen.
-
-Bis zur Erteilung der Einsatzfähigkeit dauert die Ausbildung, bei regelmäßigem Training, ca. 2,5 bis 3 Jahre.
-
-Voraussetzung für die Erteilung der Einsatzfähigkeit ist, parallel zur Rettungshundearbeit, die BGH1 & BGH2 Prüfung positiv zu absolvieren !!
-
-Um den Rettungshund einsatzfähig zu halten muss das Training !!! regelmäßig !!! weitergeführt werden.
-
-Die Einsatzfähigkeit von fertigen Rettungshundeteams wird im Jahresintervall überprüft.
-
-Der Hundeführer ist für die Ausbildung seines Hundes im Gehorsam selbst verantwortlich !!
-      

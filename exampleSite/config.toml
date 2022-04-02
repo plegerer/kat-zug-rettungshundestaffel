@@ -6,7 +6,7 @@ languageCode = "de-at"
 paginate = "6"
 summaryLength = "15"
 theme = "meghna-hugo"
-title = "Meghna"
+title = "Kat-Zug Rettungshundestaffel"
 [Languages.de]
 contentDir = "content/german"
 copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"

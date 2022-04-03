@@ -9,21 +9,20 @@ service:
       Um die Aufgaben eines Rettungshundeteams erfolgreich erfüllen zu können, werden an Hundeführer und Hund bestimmte Mindestanforderungen gestellt!
 
       * Hundeführer
-           - geistige und körperliche Eignung zum Führen eines Hundes
-           + Idealismus, Teamgeist
-           + der Wille, jederzeit in Not geratenen Menschen unabhängig von Zeit,
-      Wetter und persönlichen Terminen zu helfen
-           * Bereitschaft, viel Freizeit für eine ehrenamtliche Tätigkeit zu opfern
-           - gute gesundheitliche Verfassung
+          + geistige und körperliche Eignung zum Führen eines Hundes
+          + Idealismus, Teamgeist
+          + der Wille, jederzeit in Not geratenen Menschen unabhängig von Zeit, Wetter und persönlichen Terminen zu helfen
+          + Bereitschaft, viel Freizeit für eine ehrenamtliche Tätigkeit zu opfern
+          + gute gesundheitliche Verfassung
           + gute Kondition und Gewandtheit – auch in schwierigem Gelände
       * Hund
-      >> ausgeglichenes & freundliches Wesen
-      >> Grundgehorsam
-      >> Verträglichkeit mit anderen Hunden
-      >> Wildreinheit oder zumindest gut kontrollierbarer Jagdtrieb
-      >> starke Bindung zum Hundeführer
-      >> gute gesundheitliche Verfassung
-      >> gute Kondition und Gewandtheit auch in schwierigem Gelände
+          + ausgeglichenes & freundliches Wesen
+          + Grundgehorsam
+          + Verträglichkeit mit anderen Hunden
+          + Wildreinheit oder zumindest gut kontrollierbarer Jagdtrieb
+          + starke Bindung zum Hundeführer
+          + gute gesundheitliche Verfassung
+          + gute Kondition und Gewandtheit auch in schwierigem Gelände
   - name: Ausbildung
     icon: ti-layout
     content: Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum

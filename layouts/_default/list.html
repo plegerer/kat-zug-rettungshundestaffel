@@ -10,8 +10,8 @@
         {{"<!-- section title -->" | safeHTML}}
         <div class="title text-center wow fadeInDown">
           {{ if eq .Title "Blogs"}}
-            <h2>{{ with i18n "blogTitle" }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
-            {{ with i18n "blogTitle" }} {{ after (len (index (split . " ") 0)) . | safeHTML }} {{ end }}</span></h2>
+            <h2>{{ with i18n "blog" }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
+            {{ with i18n "blog" }} {{ after (len (index (split . " ") 0)) . | safeHTML }} {{ end }}</span></h2>
           {{ else }}
             <h2>{{ with .Title }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
 							{{ with .Title }} {{ after (len (index (split . " ") 0)) . | safeHTML }} {{ end }}</span></h2>

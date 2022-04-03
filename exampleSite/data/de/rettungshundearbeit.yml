@@ -7,7 +7,6 @@ rettungshundearbeit:
     title: Anforderungen an Mensch & Hund
     content: |-
       Um die Aufgaben eines Rettungshundeteams erfolgreich erfüllen zu können, werden an Hundeführer und Hund bestimmte Mindestanforderungen gestellt!
-
       * Hundeführer
           + geistige und körperliche Eignung zum Führen eines Hundes
           + Idealismus, Teamgeist
@@ -24,9 +23,27 @@ rettungshundearbeit:
           + gute gesundheitliche Verfassung
           + gute Kondition und Gewandtheit auch in schwierigem Gelände
   - icon : ti-reload # themify icon pack : https://themify.me/themify-icons
-    title : Wir trainieren
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
-
+    title : Ausbildung
+    content : |-
+      Die Ausbildungselemente für den Hund sind:
+      * Anzeige & Sucharbeit – je nach Spezialisierung auf der Fläche und am Trümmerfeld
+      * Gehorsam und Lenkbarkeit auf Distanz
+      * Gewandtheit auf schwierigem Gelände
+      * Training auf Geräten
+      Die Ausbildungselemente für den Hundeführer sind:
+      * Erste Hilfe (Mensch/Hund)
+      * Kartenlesen, Kompass-, Funk-, Seil- & Knoten- Kunde 
+      * Bergetechnik
+      * Theorie & Praxis der Trümmer-, Gebäude-, Flächen-, Höhlensuche 
+      * u.v.m.
+      Die Kat.-Zug Rettungshundestaffel hat sich, auf Grund der geographischen Gegebenheiten, besonders auf die Flächen- und Höhlensuche spezialisiert, aber auch Trümmersuche wird trainiert. Die “Schussfestigkeit” des Hundes ist für unsere Ausbildung nicht von Relevanz.
   - icon : ti-support # themify icon pack : https://themify.me/themify-icons
-    title : Wir sind im Einsatz
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+    title : Training
+    content : |-
+      Training 14-tägig, jeweils Sonntags von 8:00 – 16:00 Uhr
+      Mindestens zweimal jährlich mehrtägige Übungen mit wirklichkeitsnahen Einsatzübungen.
+      Bis zur Erteilung der Einsatzfähigkeit dauert die Ausbildung, bei regelmäßigem Training, ca. 2,5 bis 3 Jahre.
+      Voraussetzung für die Erteilung der Einsatzfähigkeit ist, parallel zur Rettungshundearbeit, die BGH1 & BGH2 Prüfung positiv zu absolvieren !!
+      Um den Rettungshund einsatzfähig zu halten muss das Training !!! regelmäßig !!! weitergeführt werden.
+      Die Einsatzfähigkeit von fertigen Rettungshundeteams wird im Jahresintervall überprüft.
+      Der Hundeführer ist für die Ausbildung seines Hundes im Gehorsam selbst verantwortlich !!

@@ -1,6 +1,6 @@
 ---
 - id: blogTitle
-  translation: Letzter Eintrag
+  translation: Aktuelle Blogeinträge
 - id: readMore
   translation: mehr
 - id: viewAllPost

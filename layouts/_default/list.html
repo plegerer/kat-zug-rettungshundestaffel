@@ -9,15 +9,11 @@
       <div class="col-12">
         {{"<!-- section title -->" | safeHTML}}
         <div class="title text-center wow fadeInDown">
-            <h2>{{ with .Title }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
-            {{ with .Title }} {{ index (split . " ") 1 | safeHTML }} {{ end }}
-            {{ with .Title }} {{ index (split . " ") 2 | safeHTML }} {{ end }}
-            {{ with .Title }} {{ index (split . " ") 3 | safeHTML }} {{ end }}</span></h2>
-  
+          {{ if eq  {{.Title}} "Blogs"}}
             <h2>{{ with .Title }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
 							{{ with .Title }} {{ after (len (index (split . " ") 0)) . | safeHTML }} {{ end }}</span></h2>
-        
             <div class="border-meghna"></div>
+          {{ end }}
         </div>
       </div>
       {{"<!-- /section title -->" | safeHTML}}

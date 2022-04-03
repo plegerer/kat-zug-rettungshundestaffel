@@ -3,9 +3,9 @@ rettungshundearbeit_feature:
   enable : true
   image : images/about/Finn.jpg
   image_webp : images/about/Finn.webp
-  title : Rettungshundearbeit ist...
+  title : 
   content : |-
-    ... eine schöne und sinnvolle Beschäftigung für Menschen mit ihren Hunden, die sich gerne in der Natur bewegen.
+    Rettungshundearbeit ist eine schöne und sinnvolle Beschäftigung für Menschen mit ihren Hunden, die sich gerne in der Natur bewegen.
     für Hundeführer, die Tag und Nacht einsatzbereit sein wollen um nach Personen zu suchen die
     + sich in unbekanntem Gelände verirrt haben
     + (oft in unwegsamem Gelände) vermisst werden und womöglich verunglückt sind

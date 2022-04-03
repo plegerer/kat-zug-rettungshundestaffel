@@ -1,10 +1,10 @@
----
-service:
-  enable: false
-  title: Die Rettungshundearbeit
-  service_item:
-  - name: Anforderungen an Mensch & Hund
-    icon: ti-world
+############################# Rettungshundearbeit ###################################
+rettungshundearbeit:
+  enable : true
+  title : Die Rettungshundearbeit
+  about_item :
+  - icon: ti-world
+    title: Anforderungen an Mensch & Hund
     content: |-
       Um die Aufgaben eines Rettungshundeteams erfolgreich erfüllen zu können, werden an Hundeführer und Hund bestimmte Mindestanforderungen gestellt!
 
@@ -23,10 +23,10 @@ service:
           + starke Bindung zum Hundeführer
           + gute gesundheitliche Verfassung
           + gute Kondition und Gewandtheit auch in schwierigem Gelände
-  - name: Ausbildung
-    icon: ti-layout
-    content: Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum
-      facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-  - name: Trainingsablauf
-    icon: ti-blackboard
-    content: Training 14-tägig, jeweils Sonntags von 8:00 – 16:00 Uhr
+  - icon : ti-reload # themify icon pack : https://themify.me/themify-icons
+    title : Wir trainieren
+    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+
+  - icon : ti-support # themify icon pack : https://themify.me/themify-icons
+    title : Wir sind im Einsatz
+    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.

@@ -20,7 +20,7 @@ url = "#about2"
 weight = 1
 [[Languages.de.menu.main]]
 name = "Rettungshundearbeit"
-url = "#services"
+url = "#rettungshundearbeit"
 weight = 2
 [[Languages.de.menu.main]]
 name = "Staffel"

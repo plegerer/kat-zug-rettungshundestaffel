@@ -1,8 +1,8 @@
 ---
 rettungshundearbeit_feature:
   enable : true
-  image : images/about/about-business-man.jpg
-  image_webp : images/about/about-business-man.webp
+  image : images/about/Finn.jpg
+  image_webp : images/about/Finn.webp
   title : Rettungshundearbeit ist...
   content : |-
     ... eine schöne und sinnvolle Beschäftigung für Menschen mit ihren Hunden, die sich gerne in der Natur bewegen.
@@ -12,14 +12,14 @@ rettungshundearbeit_feature:
     + durch Explosionen, Lawinen, Erdbeben oder andere Unglücksfälle verschüttet wurden
   feature_item : 
       # feature item loop
-    - title : Der ausgeprägte Geruchssin...
-      icon : ti-world # themify icon pack : https://themify.me/themify-icons
+    - title : Der ausgeprägte Geruchssinn...
+      icon : ti-map # themify icon pack : https://themify.me/themify-icons
       content : |-
         eines ausgebildeten Rettungshundes leitet ihn präzise und punktgenau zu den vermissten Personen. Je nach Ausbildungsstufe – im unübersichtlichen Gelände, Wald, Trümmer, Ruinen, Höhlen, Schnee, ...
         Die Effektivität von Rettungshundeteams kann auch heute, im Zeitalter der Technik, noch von keinem technischen Gerät überboten werden!
       # feature item loop
-    - title : Um gute und schnelle Ergebnisse...
-      icon : ti-announcement # themify icon pack : https://themify.me/themify-icons
+    - title : Um gute und schnelle...
+      icon : ti-timer # themify icon pack : https://themify.me/themify-icons
       content : |-
-        erzielen zu können ist es wichtig, dass Rettungshunde-Teams möglichst rasch zur Suche der vermissten Personen eingesetzt werden.
+        Ergebnisse erzielen zu können ist es wichtig, dass Rettungshunde-Teams möglichst rasch zur Suche der vermissten Personen eingesetzt werden.
         Leider passiert häufig, dass Suchhunde erst hinzugezogen werden, wenn andere Einsatzorganisationen (Feuerwehr, Polizei, ...) schon erfolglos gesucht haben. Dadurch wird die Arbeit der Hunde, durch Fremdgeruch belastetes Suchfeld, extrem erschwert !

@@ -3,8 +3,8 @@ rettungshundearbeit:
   enable : true
   title : Die Rettungshundearbeit
   about_item :
-  - icon: ti-world
-    title: Anforderungen an Mensch & Hund
+  - icon: ti-bolt
+    title: Anforderungen
     content: |-
       Anforderungen an den Hundeführer
       + geistige und körperliche Eignung zum Führen eines Hundes
@@ -22,7 +22,7 @@ rettungshundearbeit:
       + starke Bindung zum Hundeführer
       + gute gesundheitliche Verfassung
       + gute Kondition und Gewandtheit auch in schwierigem Gelände
-  - icon : ti-reload # themify icon pack : https://themify.me/themify-icons
+  - icon : ti-pencil # themify icon pack : https://themify.me/themify-icons
     title : Ausbildung
     content : |-
       Die Ausbildungselemente für den Hund
@@ -39,7 +39,7 @@ rettungshundearbeit:
       * u.v.m.
 
       Die Kat.-Zug Rettungshundestaffel hat sich, auf Grund der geographischen Gegebenheiten, besonders auf die Flächen- und Höhlensuche spezialisiert, aber auch Trümmersuche wird trainiert. Die “Schussfestigkeit” des Hundes ist für unsere Ausbildung nicht von Relevanz.
-  - icon : ti-support # themify icon pack : https://themify.me/themify-icons
+  - icon : ti-pulse # themify icon pack : https://themify.me/themify-icons
     title : Training
     content : |-
       Training 14-tägig, jeweils Sonntags von 8:00 – 16:00 Uhr

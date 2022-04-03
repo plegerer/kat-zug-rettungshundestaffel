@@ -6,7 +6,7 @@
 
     <div class="content">
       <p>{{ .Params.Categories }}</p>
-      <a class="tag is-primary is-radiusless" href="/categories/{{ . | urlize}}">{{ . }}</a>
+      <a class="tag is-primary is-radiusless" href="/categories/{{ .Params.Categories | urlize}}">{{ . }}</a>
 
       <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
       <p>{{ .Summary }}</p>

@@ -9,7 +9,7 @@
       <div class="col-12">
         {{"<!-- section title -->" | safeHTML}}
         <div class="title text-center wow fadeInDown">
-          {{ if eq  {{.Title}} "Blogs"}}
+          {{ if Eq {{.Title}} "Blogs"}}
             <h2>{{ with .Title }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
 							{{ with .Title }} {{ after (len (index (split . " ") 0)) . | safeHTML }} {{ end }}</span></h2>
             <div class="border-meghna"></div>

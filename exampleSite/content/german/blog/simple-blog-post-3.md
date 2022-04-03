@@ -5,7 +5,7 @@ image_webp: images/blog/blog-post-1.webp
 image: images/blog/blog-post-1.jpg
 author: John Doe
 description : "This is meta description"
-category: "Moltez wird Rettungshund!"
+categories: "Moltez wird Rettungshund!"
 
 ---
 

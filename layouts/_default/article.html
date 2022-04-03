@@ -6,6 +6,8 @@
 
     <div class="content">
       <p>{{ .Params.Categories }}</p>
+      <a class="tag is-primary is-radiusless" href="/categories/{{ . | urlize}}">{{ . }}</a>
+
       <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
       <p>{{ .Summary }}</p>
       <a class="btn btn-transparent" href="{{ .Permalink }}">{{ i18n "readMore" }}</a>

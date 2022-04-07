@@ -3,8 +3,12 @@
 		<nav class="navbar navbar-expand-lg navbar-dark">
 			<a class="navbar-brand p-0" href="{{ .Site.BaseURL | relLangURL }}">
 				{{ if site.Params.logo }}
-				<img class="lozad"
+				<img class="lozad logo-default"
 					data-src="{{ site.Params.logo | absURL }}"		 
+					alt="{{ .Site.Title }}"
+					height="42"/>
+				<img class="lozad logo-small"
+					data-src="{{ site.Params.logo_small | absURL }}"		 
 					alt="{{ .Site.Title }}"
 					height="42"/>
 				{{ else }}

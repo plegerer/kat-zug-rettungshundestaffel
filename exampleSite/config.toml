@@ -5,7 +5,7 @@ disqusShortname = ""
 languageCode = "de-at"
 paginate = "6"
 summaryLength = "15"
-theme = "meghna-hugo"
+theme = "kat-zug-rettungshundestaffel"
 title = "Kat-Zug Rettungshundestaffel"
 [Languages.de]
 contentDir = "content/german"

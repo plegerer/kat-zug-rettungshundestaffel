@@ -1044,6 +1044,7 @@ a:hover {
 .team-member {
   background-color: #292F36;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .team-member:hover .mask {
@@ -1057,6 +1058,11 @@ a:hover {
 .member-photo {
   overflow: hidden;
   position: relative;
+
+/*
+  height:500px;
+  width:280px;
+*/
 }
 
 @media (max-width: 768px) {
@@ -1065,14 +1071,33 @@ a:hover {
   }
 }
 
-.member-photo:hover img {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+
+
+.member-photo:hover img.top {
+
+  opacity:0;
 }
 
-.member-photo img {
+
+.member-photo img.top {
   transition: all 0.4s ease 0s;
+  
+  
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,0 );
+  
+  -webkit-transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -o-transition: opacity .5s ease-in-out;
+  /*transition: opacity .5s ease-in-out;*/
 }
+
+.member-photo img.bottom {
+
+  transition: opacity .5s ease-in-out;
+}
+
 
 @media (max-width: 768px) {
   .member-photo img {
@@ -1080,8 +1105,10 @@ a:hover {
   }
 }
 
+
+
 .member-photo .mask {
-  background-color: rgba(177, 20, 20, 0.17);
+  background-color: rgba(177, 20, 20, 0.35);
   position: absolute;
   text-align: center;
   height: 100%;
@@ -1094,6 +1121,7 @@ a:hover {
   -webkit-transform: rotateY(180deg) scale(0.5, 0.5);
   transform: rotateY(180deg) scale(0.5, 0.5);
 }
+
 
 .member-photo .mask ul {
   text-align: center;
@@ -1129,6 +1157,59 @@ a:hover {
 .member-meta span {
   font-size: 12px;
 }
+
+/*=================================================================
+  Staffel Special
+==================================================================*/
+
+.center-cropped {
+  object-fit: cover; /* Do not scale the image */
+  object-position: top; /* Center the image within the element */
+  height: 250px;
+  width: 250px;
+}
+
+.cf {
+  display: inline-block;
+  position:relative;
+  height:300px;
+  width:280px;
+  margin:0 auto;
+}
+
+.cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -o-transition: opacity .5s ease-in-out;
+  transition: opacity .5s ease-in-out;
+}
+
+.cf img.top:hover {
+  opacity:0;
+}
+.cf .mask {
+  background-color: rgba(177, 20, 20, 0.57);
+  position: absolute;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  transition: all .5s ease-out 0s;
+  -webkit-transform: rotateY(180deg) scale(0.5, 0.5);
+  transform: rotateY(180deg) scale(0.5, 0.5);
+}
+
+
+
+
+
+
+
 
 /*=================================================================
   Testimonial section

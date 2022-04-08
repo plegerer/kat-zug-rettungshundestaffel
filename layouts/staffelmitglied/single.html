@@ -1,0 +1,38 @@
+{{ define "main" }}
+
+{{ partial "navigation.html" . }}
+
+<section class="section section-bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-10 mx-auto">
+				<div class="title text-center">
+					<h2>{{ with .Title }} {{ index (split . "mit") 0 | safeHTML }} {{ end }}<span class="color">
+							{{ with .Title }} {{ after (len (index (split . "mit") 0)) . | safeHTML }} {{ end }} </span></h2>
+					<div class="border-meghna"></div>
+				</div>
+				<div class="content text-center">
+					<figure>
+						<div class="row">
+
+						{{ if .Params.image_h }}
+						<img class="rounded-circle img-fluid lozad center-cropped" data-src="{{.Params.image_h | relURL }}">
+						{{ end }}
+						{{ if .Params.image_h }}
+						<img class="rounded-circle img-fluid lozad center-cropped" data-src="{{.Params.image_d | relURL }}">
+						{{ end }}
+
+						</div>
+					</figure>
+					<hr>
+					{{ .Content }}
+					<hr>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+{{ end }}

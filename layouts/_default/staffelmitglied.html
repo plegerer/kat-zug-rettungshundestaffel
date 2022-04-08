@@ -1,0 +1,19 @@
+<article class="col-lg-3 col-md-6 col-12 wow fadeInDown" data-wow-duration="500ms">    
+    <div class="team-member">
+      <div class="member-photo">
+        {{"<!-- member photo -->" | safeHTML}}
+        <img class="img-fluid lozad bottom" data-src="{{ .Params.image_webp_d | absURL }}" onerror="this.onerror=null;this.src='{{ .Params.image_d | absURL }}'">
+        <img class="img-fluid lozad top" data-src="{{ .Params.image_webp_h | absURL }}" onerror="this.onerror=null;this.src='{{ .Params.image_h | absURL }}'">
+        {{"<!-- member social profile -->" | safeHTML}}
+        <div class="mask">    
+          <ul class="list-inline">
+            <a class="btn btn-transparent" href="{{ .Permalink }}">{{ i18n "readMore" }}</a>
+          </ul>
+        </div>
+      </div>
+      <div class="member-meta">
+        <h4>{{ .Params.name }}</h4>
+        <span>{{ .Params.designation}}</span>
+      </div>
+    </div>
+</article>

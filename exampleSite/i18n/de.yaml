@@ -9,6 +9,10 @@
   translation: Teilen
 - id: aboutAuthor
   translation: Über den Autor
+- id: aboutStaffelmitglied
+  translation: Kat-Zug Rettungsstaffel
+- id: staffelList
+  translation: Unsere Staffelmitglieder  
 - id: authorsPosts
   translation: Einträge des Autors
 - id: all

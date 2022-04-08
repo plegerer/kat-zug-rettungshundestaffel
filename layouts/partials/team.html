@@ -22,10 +22,10 @@
         <div class="team-member">
           <div class="member-photo">
             {{"<!-- member photo -->" | safeHTML}}
-            <img class="img-fluid lozad" data-src="{{ .image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .image | absURL }}'" alt="{{ .name }}">
-
+            <img class="img-fluid lozad bottom" data-src="{{ .image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .image | absURL }}'" alt="{{ .name }}">
+            <img class="img-fluid lozad top" data-src="{{ .image_webp2 | absURL }}" onerror="this.onerror=null;this.src='{{ .image2 | absURL }}'" alt="{{ .name }}">
             {{"<!-- member social profile -->" | safeHTML}}
-            <div class="mask">
+            <div class="mask">    
               <ul class="list-inline">
                 {{ range .social }}
                 <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>

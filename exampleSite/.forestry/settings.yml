@@ -15,14 +15,15 @@ sections:
   templates:
   - post
 - type: heading
-  label: Author
+  label: Staffel
 - type: directory
-  path: exampleSite/content/german/author
-  label: Author (de)
+  path: exampleSite/content/german/staffelmitglied
+  label: Staffelmitglied (de)
   create: documents
   match: "**/*"
+  new_doc_ext: md
   templates:
-  - author
+  - staffelmitglied
 - type: heading
   label: Data
 - type: directory

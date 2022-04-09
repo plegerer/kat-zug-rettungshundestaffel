@@ -2,8 +2,13 @@
     <div class="team-member">
       <div class="member-photo">
         {{"<!-- member photo -->" | safeHTML}}
+        {{ if .Params.image_d }}
         <img class="img-fluid lozad bottom" data-src="{{ .Params.image_webp_d | absURL }}" onerror="this.onerror=null;this.src='{{ .Params.image_d | absURL }}'">
+        {{ else }}
+        <img class="img-fluid lozad bottom" data-src="{{ .Params.image_webp_h | absURL }}" onerror="this.onerror=null;this.src='{{ .Params.image_h | absURL }}'">
+        {{ end }}
         <img class="img-fluid lozad top" data-src="{{ .Params.image_webp_h | absURL }}" onerror="this.onerror=null;this.src='{{ .Params.image_h | absURL }}'">
+        
         {{"<!-- member social profile -->" | safeHTML}}
         <div class="mask">    
           <ul class="list-inline">

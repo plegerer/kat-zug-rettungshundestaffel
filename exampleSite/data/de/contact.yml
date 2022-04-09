@@ -1,20 +1,15 @@
 ---
 contact:
   enable: true
-  title: Contact Us
-  subtitle: Contact Details
-  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, vero,
-    provident, eum eligendi blanditiis ex explicabo vitae nostrum facilis asperiores
-    dolorem illo officiis ratione vel fugiat dicta laboriosam labore adipisci.
+  title: Kontakt
+  subtitle: ' Österreichweiter Notruf 0676/79 51 645'
   contact_list:
   - icon: ti-location-pin
     info: Kat.-Zug Rettungshundestaffel Baden
   - icon: ti-mobile
-    info: 'Phone: +880-31-000-000'
-  - icon: ti-printer
-    info: 'Fax: +880-31-000-000'
+    info: 'Tel: +43 676 699 52 96'
   - icon: ti-email
-    info: 'Email: hello@meghna.com'
+    info: 'Email: h.Eszterwitsch@A1.net'
   contact_form:
     enable: false
     form_action: "#"

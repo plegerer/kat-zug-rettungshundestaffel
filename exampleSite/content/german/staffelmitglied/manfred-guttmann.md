@@ -2,10 +2,10 @@
 title: Manfred Guttmann, JHF mit Lira
 name: Manfred Guttmann
 designation: Junghundeführer
-image_webp_h : images/staffelmitglied/symbol-human.webp
-image_h : images/staffelmitglied/symbol-human.jpg
-image_webp_d : images/staffelmitglied/symbol-dog.webp
-image_d : images/staffelmitglied/symbol-dog.jpg
+image_webp_h : images/staffelmitglied/manfred-guttmann-human.webp
+image_h : images/staffelmitglied/manfred-guttmann-human.jpg
+image_webp_d : images/staffelmitglied/manfred-guttmann-dog.webp
+image_d : images/staffelmitglied/manfred-guttmann-dog.jpg
 ---
 ## Manfred Guttmann
 1958 geboren, Pensionist seit 2020 

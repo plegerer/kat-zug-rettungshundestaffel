@@ -2,10 +2,10 @@
 title: Stefanie Kowanz, JHF mit Merida
 name: Stefanie Kowanz
 designation: Junghundeführerin
-image_webp_h : images/staffelmitglied/symbol-human.webp
-image_h : images/staffelmitglied/symbol-human.jpg
-image_webp_d : images/staffelmitglied/symbol-dog.webp
-image_d : images/staffelmitglied/symbol-dog.jpg
+image_webp_h : images/staffelmitglied/stefanie-kowanz-human.webp
+image_h : images/staffelmitglied/stefanie-kowanz-human.jpg
+image_webp_d : images/staffelmitglied/stefanie-kowanz-dog.webp
+image_d : images/staffelmitglied/stefanie-kowanz-dog.jpg
 ---
 ## Stefanie Kowanz
 1987 geboren, ledig, Angestellte

@@ -1,7 +1,7 @@
 ---
 title: Stefanie Kladler, Ausbildungshelferin
 name: Stefanie Kladler
-designation: Ausbildungshelfering
+designation: Ausbildungshelferin
 image_webp_h : images/staffelmitglied/symbol-human.webp
 image_h : images/staffelmitglied/symbol-human.jpg
 ---

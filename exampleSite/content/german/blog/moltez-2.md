@@ -9,7 +9,7 @@ categories: "Moltez wird Rettungshund!"
 ---
 ## Einstufungstest!
 
-Heute war ein großer Tag: Nach anfänglichem Training kam der Kommandant und klärte uns auf: Es gibt eine Prüfung zu Einstufung der Hunde und Hundeführer!
+Heute war ein großer Tag: Nach anfänglichem Training kam der Kommandant und klärte uns auf: Es gibt eine Prüfung zur Einstufung der Hunde und Hundeführer!
 
 Moltez sollte innerhalb von 5 Minuten 3 versteckte Opfer finden und anzeigen. Er hat sich bravourös geschlagen, nur ich habe ihm wieder zu wenig zugetraut. Als ich dachte, er wäre abgehauen und ich ihn zurückpfeifen wollte, hat er tatsächlich bereits das nächste Opfer gefunden. Trockener Kommentar des Ausbildners (Martin): "Na zum Glück hört er nicht auf Dich!"
 

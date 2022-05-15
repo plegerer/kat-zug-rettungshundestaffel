@@ -26,7 +26,7 @@ jobs:
     - name: FTP site
       uses: SamKirkland/FTP-Deploy-Action@3.0.0
       with:
-        ftp-server: ftpBS.world4you.com/hugo/
+        ftp-server: ftp85.world4you.com/hugo/
         ftp-username: katzug-rettu
         ftp-password: ${{ secrets.FTP_PASSWORD }}
         local-dir: exampleSite/public/

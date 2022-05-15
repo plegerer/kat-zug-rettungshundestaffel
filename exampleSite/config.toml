@@ -1,5 +1,5 @@
 DefaultContentLanguage = "de"
-baseURL = "https://kat-zug-staging.netlify.com"
+baseURL = "https://www.katzug-rettungshundestaffel.at/hugo/"
 disableLanguages = ["en"]
 disqusShortname = ""
 languageCode = "de-at"

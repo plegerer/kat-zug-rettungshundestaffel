@@ -21,7 +21,7 @@ jobs:
         hugo-version: 'latest'
 
     - name: Build site
-      run: hugo --minify
+      run: cd exampleSite && hugo --gc --themesDir ../.. --minify
 
     - name: FTP site
       uses: SamKirkland/FTP-Deploy-Action@3.0.0
@@ -29,5 +29,5 @@ jobs:
         ftp-server: ftpBS.world4you.com/hugo/
         ftp-username: katzug-rettu
         ftp-password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: public/
+        local-dir: exampleSite/public/
         git-ftp-args: --insecure --all

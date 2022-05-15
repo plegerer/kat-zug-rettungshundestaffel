@@ -26,9 +26,9 @@ jobs:
     - name: FTP site
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
-        ftp-server: ftp83.world4you.com
+        server: ftp83.world4you.com
         server-dir: ./hugo/
-        ftp-username: katzug-rettu
-        ftp-password: ${{ secrets.FTP_PASSWORD }}
+        username: katzug-rettu
+        password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./exampleSite/public/
         git-ftp-args: --insecure --all

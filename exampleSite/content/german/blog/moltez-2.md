@@ -7,7 +7,7 @@ author: Paul Legerer
 description : "Moltez hat seine Einstiegsprüfung und wird der Gruppe 2 zugeteilt"
 categories: "Moltez wird Rettungshund!"
 ---
-## Einstufungstest!
+## Einstufungstest!!
 
 Heute war ein großer Tag: Nach anfänglichem Training kam der Kommandant und klärte uns auf: Es gibt eine Prüfung zur Einstufung der Hunde und Hundeführer!
 

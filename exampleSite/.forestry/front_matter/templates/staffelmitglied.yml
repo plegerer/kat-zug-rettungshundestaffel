@@ -10,6 +10,11 @@ fields:
   name: name
   label: name
   description: 'Bsp.: Paul Legerer'
+- name: sort_name
+  type: text
+  config:
+    required: false
+  label: sort_name
 - type: text
   name: designation
   label: designation

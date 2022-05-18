@@ -6,6 +6,7 @@ image_webp_h : images/staffelmitglied/symbol-human.webp
 image_h : images/staffelmitglied/symbol-human.jpg
 image_webp_d : images/staffelmitglied/symbol-dog.webp
 image_d : images/staffelmitglied/symbol-dog.jpg
+weight: 2
 ---
 ## Martin Pochmann
 1988 geboren, ledig, Polizist

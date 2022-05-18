@@ -1,12 +1,13 @@
 ---
-title: "Paul Legerer, JHF mit MOLTEZ"
-name: "Paul Legerer"
-sort_name: "Legerer Paul"
-designation: "Junghundeführer"
-image_webp_h : images/staffelmitglied/paul-legerer-human.webp
-image_h : images/staffelmitglied/paul-legerer-human.jpg
-image_webp_d : images/staffelmitglied/paul-legerer-dog.webp
-image_d : images/staffelmitglied/paul-legerer-dog.jpg
+title: Paul Legerer, JHF mit MOLTEZ
+name: Paul Legerer
+sort_name: 99-Legerer Paul
+designation: Junghundeführer
+image_webp_h: images/staffelmitglied/paul-legerer-human.webp
+image_h: images/staffelmitglied/paul-legerer-human.jpg
+image_webp_d: images/staffelmitglied/paul-legerer-dog.webp
+image_d: images/staffelmitglied/paul-legerer-dog.jpg
+
 ---
 ## Paul Legerer
 1973 geboren, IT-Berater

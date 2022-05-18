@@ -19,9 +19,8 @@ Schliesslich sind wir in der Gruppe 2 gelandet.
 
 {{< load-photoswipe >}}
 
-
 {{< gallery >}}
-{{< figure src="images/blog/moltez-2.jpg" >}}
-{{< figure src="images/blog/moltez-2.jpg" >}}
-{{< figure src="images/blog/moltez-2.jpg" >}}
+  {{< figure src="images/blog/moltez-2.jpg" >}}
+  {{< figure src="images/blog/moltez-2.jpg" >}}
+  {{< figure src="images/blog/moltez-2.jpg" >}}
 {{< /gallery >}}

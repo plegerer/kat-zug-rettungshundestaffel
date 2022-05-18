@@ -7,7 +7,7 @@ image_h: images/staffelmitglied/symbol-human.jpg
 image_webp_d: images/staffelmitglied/symbol-dog.webp
 image_d: images/staffelmitglied/symbol-dog.jpg
 weight: 2
-sort_name: 01_Pochman
+sort_name: 01-Pochman
 
 ---
 ## Martin Pochmann

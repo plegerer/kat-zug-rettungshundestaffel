@@ -2,11 +2,13 @@
 title: Martin Pochmann, Kdt.Stv., RHF mit Lila
 name: Martin Pochman
 designation: Kdt.Stv., Rettungshundeführer
-image_webp_h : images/staffelmitglied/symbol-human.webp
-image_h : images/staffelmitglied/symbol-human.jpg
-image_webp_d : images/staffelmitglied/symbol-dog.webp
-image_d : images/staffelmitglied/symbol-dog.jpg
+image_webp_h: images/staffelmitglied/symbol-human.webp
+image_h: images/staffelmitglied/symbol-human.jpg
+image_webp_d: images/staffelmitglied/symbol-dog.webp
+image_d: images/staffelmitglied/symbol-dog.jpg
 weight: 2
+sort_name: 01_Pochman
+
 ---
 ## Martin Pochmann
 1988 geboren, ledig, Polizist

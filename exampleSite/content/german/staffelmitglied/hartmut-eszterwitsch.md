@@ -4,6 +4,7 @@ name: "Hartmut Eszterwitsch"
 designation: "Kat.Zug Kommandant"
 image_webp_h : images/staffelmitglied/hartmut-eszterwitsch-human.webp
 image_h : images/staffelmitglied/hartmut-eszterwitsch-human.jpg
+weight: 1
 ---
 ## Hartmut Eszterwitsch
 1953 geboren, verheiratet, Kraftfahrer in Pension 

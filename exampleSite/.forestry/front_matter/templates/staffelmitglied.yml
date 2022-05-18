@@ -22,10 +22,7 @@ fields:
   label: image webp_h
 - type: file
   name: image_d
-  label: image_d 
+  label: image_d
 - type: file
   name: image_webp_d
   label: image webp_d
- 
-
-

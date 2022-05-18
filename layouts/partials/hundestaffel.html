@@ -14,7 +14,7 @@
       </div>
       {{"<!-- /section title -->" | safeHTML}}
 
-      {{ range (where site.RegularPages.ByWeight "Section" "==" "staffelmitglied")}}
+      {{ range (where ((site.RegularPages.ByWeight).ByParam "sort_name") "Section" "==" "staffelmitglied")}}
       {{ .Render "staffelmitglied"}}
       {{ end }}
 

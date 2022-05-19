@@ -1,6 +1,7 @@
 ---
 title: Lukas Wirth, JHF mit Uno
 name: Lukas Wirth
+sort_name: 99-wirth lukas
 designation: Junghundeführer
 image_webp_h : images/staffelmitglied/lukas-wirth-human.webp
 image_h : images/staffelmitglied/lukas-wirth-human.jpg

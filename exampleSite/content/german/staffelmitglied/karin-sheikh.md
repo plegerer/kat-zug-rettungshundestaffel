@@ -1,6 +1,7 @@
 ---
 title: Karin Sheikh, JHF mit **Hundename**
 name: Karin Sheikh
+sort_name: 99-sheikh karin
 designation: Junghundeführerin
 image_webp_h : images/staffelmitglied/karin-sheikh-human.webp
 image_h : images/staffelmitglied/karin-sheikh-human.jpg

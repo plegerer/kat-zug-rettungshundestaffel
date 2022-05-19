@@ -1,6 +1,7 @@
 ---
 title: Josef Latjos, JHF mit Finn
 name: Josef Latjos
+sort_name: 99-latjos josef
 designation: Junghundeführer
 image_webp_h : images/staffelmitglied/josef-latjos-human.webp
 image_h : images/staffelmitglied/josef-latjos-human.jpg

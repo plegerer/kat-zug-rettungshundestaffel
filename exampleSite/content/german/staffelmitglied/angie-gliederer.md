@@ -1,6 +1,7 @@
 ---
 title: Angie Gliederer, JHF mit Fynn vom Leithabach
 name: Angie Gliederer
+sort_name: 99-gliederer angie
 designation: Junghundeführerin
 image_webp_h : images/staffelmitglied/symbol-human.webp
 image_h : images/staffelmitglied/symbol-human.jpg

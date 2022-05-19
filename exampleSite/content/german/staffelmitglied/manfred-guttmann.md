@@ -1,6 +1,7 @@
 ---
 title: Manfred Guttmann, JHF mit Lira
 name: Manfred Guttmann
+sort_name: 99-guttmann manfred
 designation: Junghundeführer
 image_webp_h : images/staffelmitglied/manfred-guttmann-human.webp
 image_h : images/staffelmitglied/manfred-guttmann-human.jpg

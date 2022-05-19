@@ -1,7 +1,7 @@
 ---
 title: Werner Györög, JHF mit Sally
 name: Werner Györög
-sort_name: 99-Gyoeroeg Werner
+sort_name: 99-gyoeroeg werner
 designation: Junghundeführer
 image_webp_h: images/staffelmitglied/werner-gyoeroeg-human.webp
 image_h: images/staffelmitglied/werner-gyoeroeg-human.jpg

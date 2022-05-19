@@ -1,6 +1,7 @@
 ---
 title: Melanie, JHF mit Vito
 name: Melanie
+sort_name: 99-x melanie
 designation: Junghundeführerin
 image_webp_h : images/staffelmitglied/symbol-human.webp
 image_h : images/staffelmitglied/symbol-human.jpg

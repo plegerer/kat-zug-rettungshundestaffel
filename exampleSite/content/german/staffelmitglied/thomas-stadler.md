@@ -1,6 +1,7 @@
 ---
 title: Thomas Stadler, JHF mit **Hundename**
 name: Thomas Stadler
+sort_name: 99-stadler thomas
 designation: Junghundeführer
 image_webp_h : images/staffelmitglied/thomas-stadler-human.webp
 image_h : images/staffelmitglied/thomas-stadler-human.jpg

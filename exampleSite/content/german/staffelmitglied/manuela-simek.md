@@ -1,6 +1,7 @@
 ---
 title: Manuela Simek, RHF mit Murphy
 name: Manuela Simek
+sort_name: 99-simek manuela
 designation: Rettungshundeführerin
 image_webp_h : images/staffelmitglied/symbol-human.webp
 image_h : images/staffelmitglied/symbol-human.jpg

@@ -1,7 +1,8 @@
 ---
-title: "Judith Spiegl, Ausbildungshelferin"
-name: "Judith Spiegl"
-designation: "Ausbildungshelferin"
+title: Judith Spiegl, Ausbildungshelferin
+name: Judith Spiegl
+sort_name: 99-spiegl judith
+designation: Ausbildungshelferin
 image_webp_h : images/staffelmitglied/symbol-human.webp
 image_h : images/staffelmitglied/symbol-human.jpg
 ---

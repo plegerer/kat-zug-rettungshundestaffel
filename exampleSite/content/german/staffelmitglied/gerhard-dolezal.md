@@ -1,12 +1,13 @@
 ---
-title: Gerhard Dolezal, Staffelleiter Stv., RHF mit Jessy
+title: Gerhard Dolezal, RHF mit Jessy
 name: Gerhard Dolezal
-sort_name: 01-dolezal gerhard
+sort_name: 99-dolezal gerhard
 designation: Rettungshundeführer
-image_webp_h : images/staffelmitglied/symbol-human.webp
-image_h : images/staffelmitglied/symbol-human.jpg
-image_webp_d : images/staffelmitglied/symbol-dog.webp
-image_d : images/staffelmitglied/symbol-dog.jpg
+image_webp_h: images/staffelmitglied/symbol-human.webp
+image_h: images/staffelmitglied/symbol-human.jpg
+image_webp_d: images/staffelmitglied/symbol-dog.webp
+image_d: images/staffelmitglied/symbol-dog.jpg
+
 ---
 ## Gerhard Dolezal
 1962 geboren, ledig, Werkzeugmacher

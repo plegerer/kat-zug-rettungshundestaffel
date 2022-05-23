@@ -1,5 +1,5 @@
 ---
-title: Paul Legerer, JHF mit MOLTEZ
+title: Paul Legerer, JHF mit Moltez
 name: Paul Legerer
 sort_name: 99-legerer paul
 designation: Junghundeführer

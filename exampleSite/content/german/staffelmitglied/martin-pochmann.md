@@ -3,10 +3,10 @@ title: Martin Pochmann, Kdt.Stv., RHF mit Lila
 name: Martin Pochman
 sort_name: 02-pochman martin
 designation: Kdt.Stv., Rettungshundeführer
-image_webp_h: images/staffelmitglied/symbol-human.webp
-image_h: images/staffelmitglied/symbol-human.jpg
-image_webp_d: images/staffelmitglied/symbol-dog.webp
-image_d: images/staffelmitglied/symbol-dog.jpg
+image_webp_h: images/staffelmitglied/martin-pochman-human.webp
+image_h: images/staffelmitglied/martin-pochman-human.jpg
+image_webp_d: images/staffelmitglied/martin-pochman-dog.webp
+image_d: images/staffelmitglied/martin-pochman-dog.jpg
 sort_name: 02-Pochman
 
 ---

@@ -27,7 +27,7 @@ Wurfdatum: 17.10.2017
 
 Prüfungen: BH, BHG1
 
-Charaktereigenschaften: gute Nasenarbeit, starker Bezug auf den Hundeführer. 
+Charaktereigenschaften: gute Nasenarbeit, starker Bezug auf den Hundeführer. Im Hundeverhalten zu anderen Hunden: "Lass mich in Ruhe, dann lass' ich dich auch in Ruhe!", kein Doninanzverhalten, er will seine Ruhe
 
 ## Ausbildung
 

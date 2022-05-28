@@ -1,11 +1,12 @@
 <article class="col-lg-4 col-md-6 col-12 clearfix wow fadeInUp mb-4" data-wow-duration="500ms">
   <div class="post-block">
+    
     <div class="media-wrapper">
       <img class="img-fluid lozad" data-src="{{ .Params.Image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .Params.image | absURL }}'">
     </div>
 
     <div class="content">
-      <p><a class="tag is-primary is-radiusless" href="/categories/{{ .Params.Categories | urlize}}">{{ .Params.Categories }}</a></p>
+      <p><a class="tag is-primary is-radiusless" href="{{`/categories/`  | relURL}}{{ .Params.Categories | urlize}}">{{ .Params.Categories }}</a></p>
       <h3>{{ .Title }}</h3>
       <p>{{ .Summary }}</p>
       <a class="btn btn-transparent" href="{{ .Permalink }}">{{ i18n "readMore" }}</a>

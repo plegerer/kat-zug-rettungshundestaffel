@@ -1,6 +1,6 @@
 ---
 title: Melanie Feyertag, Ausbildungshelferin
-name: Melanie
+name: Melanie Feyertag
 sort_name: 99-feyertag melanie
 designation: Ausbildungshelferin
 image_webp_h : images/staffelmitglied/symbol-human.webp

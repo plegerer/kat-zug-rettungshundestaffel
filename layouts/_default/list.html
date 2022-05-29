@@ -40,7 +40,7 @@
       {{ else }}
         {{"<!-- /section title -->" | safeHTML}}
         {{ $paginator := .Paginate .Data.Pages }}
-        {{ range $paginator.Pages }}
+        {{ range $paginator.Pages.ByWeight }}
           {{ .Render "article" }}
         {{ end }}
         <div class="col-12">

@@ -1,15 +1,19 @@
 ---
 title: "Anstehende Veranstaltungen"
-date: 2022-04-09T00:00:00+00:00
+date: 2022-05-29T00:00:00+00:00
 image_webp: images/blog/default.webp
 image: images/blog/default.jpg
 author: Hartmut Eszterwitsch
 description : "Fixer Post mit den zukünftigen Veranstaltungen"
 categories: "Veranstaltungen"
+weight: 100
+summary: "Unsere nächste Veranstanltung: Tag der offenen Tür - Melker Pioniere am 11 Juni 2022"
 ---
-## Auf diesen Veranstaltungen findest Du uns:
-#### Veranstaltungen im Mai
-+ 14.5.2022 Laxenburg
-#### Veranstaltungen im Juni
-+ 11.6.2022 Melk, Pioniere
-+ 18.6.2022 Altenmarkt, Blaulichttag
+## Unsere nächste Veranstaltung:
+
++ 11. Juni 2022: Tag der offenen Tür - Melker Pioniere 
+
+
+### Weitere geplante Veranstaltungen:
+
++ 18. Juni .2022 Altenmarkt, Blaulichttag

@@ -25,7 +25,7 @@ Sonstige Hobbies: Wandern,  Familie und Enkelkinder
 
 Wurfdatum: 04.03.2020
 
-Prüfungen: Begleithundeprüfung mit verhaltentest (Mensch-Hund-Team Prüfung)
+Prüfungen:  BH Begleithundeprüfung mit verhaltentest (Mensch-Hund-Team Prüfung)
 
 Charaktereigenschaften: neugierig, verspielt, liebt den Kontakt zu Menschen, sehr lernfähig
 

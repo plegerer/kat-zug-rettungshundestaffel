@@ -9,6 +9,7 @@
       <p><a class="tag is-primary is-radiusless" href="{{`/categories/`  | relURL}}{{ .Params.Categories | urlize}}">{{ .Params.Categories }}</a></p>
       <h3>{{ .Title }}</h3>
       <p>{{ .Summary }}</p>
+
       <a class="btn btn-transparent" href="{{ .Permalink }}">{{ i18n "readMore" }}</a>
     </div>
   </div>

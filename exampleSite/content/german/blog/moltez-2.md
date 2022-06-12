@@ -16,11 +16,3 @@ Moltez sollte innerhalb von 5 Minuten 3 versteckte Opfer finden und anzeigen. Er
 
 Schliesslich sind wir in der Gruppe 2 gelandet.
 
-
-{{< load-photoswipe >}}
-
-{{< gallery >}}
-  {{< figure src="images/blog/moltez-2.jpg" >}}
-  {{< figure src="images/blog/moltez-2.jpg" >}}
-  {{< figure src="images/blog/moltez-2.jpg" >}}
-{{< /gallery >}}

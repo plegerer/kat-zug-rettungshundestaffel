@@ -26,5 +26,10 @@ fields:
   type: image_gallery
   config: {}
   label: Gallery
+- name: photo_dir
+  type: text
+  config:
+    required: false
+  label: photo_dir
 pages:
 - exampleSite/content/german/blog/autotaufe-am-stutzpunkt-in-baden.md

@@ -22,3 +22,7 @@ fields:
   name: description
   label: description
   description: meta description
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: Gallery

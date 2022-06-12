@@ -48,7 +48,7 @@ upload_dir: exampleSite/static/images
 public_path: "/images"
 front_matter_path: ''
 use_front_matter_path: false
-file_template: '2022-05-22-Fahrzeugweihe/:filename:'
+file_template: 'blog/2022-05-22-Fahrzeugweihe/:filename:'
 build:
   preview_env:
   - HUGO_ENV=staging

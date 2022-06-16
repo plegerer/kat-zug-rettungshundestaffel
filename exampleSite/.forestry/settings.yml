@@ -44,11 +44,11 @@ sections:
   create: all
   match: "*.toml"
   new_doc_ext: toml
-upload_dir: exampleSite/static/images
+upload_dir: exampleSite/asset/images
 public_path: "/images"
 front_matter_path: ''
 use_front_matter_path: false
-file_template: 'blog/2022-05-22-Fahrzeugweihe/:filename:'
+file_template: ":filename:"
 build:
   preview_env:
   - HUGO_ENV=staging

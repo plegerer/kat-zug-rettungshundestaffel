@@ -31,5 +31,3 @@ fields:
   config:
     required: false
   label: photo_dir
-pages:
-- exampleSite/content/german/blog/autotaufe-am-stutzpunkt-in-baden.md

@@ -1,12 +1,10 @@
 ---
 title: "Bauernmarkt in Guntramsdorf"
 date: 2022-05-07T00:00:00+00:00
-image_webp: images/blog/2022-05-07-Guntramsdorf.webp
-image: images/blog/2022-05-07-Guntramsdorf.jpg
+image: "images/blog/2022-05-07-Guntramsdorf-01.jpg"
 author: Paul Legerer
 description : "Die Staffel beim Bauernmarkt in Guntramsdorf"
 categories: "Veranstaltungen"
-photo_dir: "images/blog/2022-05-07-Guntramsdorf/"
 ---
 ## Der erste Auftritt 2022!
 

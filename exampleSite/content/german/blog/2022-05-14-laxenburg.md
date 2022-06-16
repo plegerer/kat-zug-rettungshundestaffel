@@ -1,12 +1,10 @@
 ---
 title: "Gesundheitstag in Laxenburg"
 date: 2022-05-14T00:00:00+00:00
-image_webp: images/blog/2022-05-14-Laxenburg.webp
-image: images/blog/2022-05-14-Laxenburg.jpg
+image: "images/blog/2022-05-14-Laxenburg-01.jpg"
 author: Paul Legerer
 description : "Die Staffel beim Gesundheitstag in Laxenburg"
 categories: "Veranstaltungen"
-photo_dir: "images/blog/2022-05-14-Laxenburg/"
 ---
 ## Tony, unser kleiner Fernsehstar!
 

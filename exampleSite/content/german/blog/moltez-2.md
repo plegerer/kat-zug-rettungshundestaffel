@@ -1,8 +1,7 @@
 ---
 title: Gruppe 2!
 date: 2022-04-10T00:00:00.000+00:00
-image_webp: images/blog/moltez-2.webp
-image: images/blog/moltez-2.jpg
+image: "images/blog/moltez-2.jpg"
 author: Paul Legerer
 description: Moltez hat seine Einstiegsprüfung und wird der Gruppe 2 zugeteilt
 categories: Moltez wird Rettungshund!

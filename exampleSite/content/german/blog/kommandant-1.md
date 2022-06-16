@@ -1,8 +1,7 @@
 ---
 title: "Blog des Kommandanten"
 date: 2022-04-09T00:00:00+00:00
-image_webp: images/blog/default.webp
-image: images/blog/default.jpg
+image: "images/blog/default.jpg"
 author: Paul Legerer
 description : "Einstiegseintrag für den Blog 'Blog des Kommandanten'"
 categories: "Blog des Kommandanten"

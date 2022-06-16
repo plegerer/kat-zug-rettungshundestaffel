@@ -12,7 +12,16 @@
           <li class="list-inline-item">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</li>
           <li class="list-inline-item">{{ .Params.Categories }}</li>
         </ul>
+
+        <!---
         <img class="img-fluid mb-50 lozad" data-src="{{ .Params.Image | absURL }}" alt="blog-image">
+        -->
+        {{- with .Params.featured_image -}}
+        {{ $pos := resources.Get . }}
+        {{ $pos := $pos.Fill "515x334" }}
+      
+        <img class="img-fluid mb-50 lozad" data-src="{{ $pos.Permalink }}" alt="blog-image">
+        {{- end -}}
       </div>
       <div class="col-lg-8 offset-lg-2">
         <div class="post-single-content">

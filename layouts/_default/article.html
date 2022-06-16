@@ -1,10 +1,17 @@
 <article class="col-lg-4 col-md-6 col-12 clearfix wow fadeInUp mb-4" data-wow-duration="500ms">
   <div class="post-block">
     
+    {{ $pos := resources.Get .Params.Image }}
+    {{ $pos := $pos.Fill "515x334" }}
+    {{ $poswep := $pos.Fill "515x334 webp" }}
+    
     <div class="media-wrapper">
+      <!--
       <img class="img-fluid lozad" data-src="{{ .Params.Image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .Params.image | absURL }}'">
+       -->
+       <img class="img-fluid lozad" data-src="{{ $poswep.RelPermalink }}" onerror="this.onerror=null;this.src='{{ $pos.RelPermalink }}'">
     </div>
-
+    
     <div class="content">
       <p><a class="tag is-primary is-radiusless" href="{{`/categories/`  | relURL}}{{ .Params.Categories | urlize}}">{{ .Params.Categories }}</a></p>
       <h3>{{ .Title }}</h3>

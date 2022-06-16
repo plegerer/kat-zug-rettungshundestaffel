@@ -79,11 +79,16 @@ Put this file in /layouts/shortcodes/gallery.html
 Documentation and licence at https://github.com/liwenyip/hugo-easy-gallery/
 -->
 <!-- count how many times we've called this shortcode; load the css if it's the first time -->
-{{ if .Params.photo_dir }}
-{{ $dir := .Params.photo_dir}}
+
 
 {{- if not ($.Page.Scratch.Get "figurecount") }}<link rel="stylesheet" href={{ "/css/hugo-easy-gallery.css" | relURL }} />{{ end }}
 {{- $.Page.Scratch.Add "figurecount" 1 }}
+
+
+
+{{ if .Params.photo_dir }}
+{{ $dir := .Params.photo_dir}}
+
 {{ $baseURL := .Site.BaseURL }}
 <div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
 	{{- with .Params.photo_dir -}}
@@ -115,7 +120,44 @@ Documentation and licence at https://github.com/liwenyip/hugo-easy-gallery/
 		{{- end }}
 	{{- else -}}
 		<!-- If no directory was specified, include any figure shortcodes called within the gallery -->
-	  {{ .Inner }}
+	 
 	{{- end }}
 </div>
 {{end}}
+
+{{ if .Params.gallery }}
+<!--
+{{- if not ($.Page.Scratch.Get "figurecount") }}<link rel="stylesheet" href={{ "/css/hugo-easy-gallery.css" | relURL }} />{{ end }}
+{{- $.Page.Scratch.Add "figurecount" 1 }}
+-->
+<div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+	
+		<!-- If a directory was specified, generate figures for all of the images in the directory -->
+		{{- $files := .Params.gallery }}
+		{{- range $files -}}
+			<!-- skip files that aren't images, or that include the thumb suffix in their name -->
+      {{ $image := resources.Get . }}
+      {{ if lt $image.Width $image.Height }}
+        {{ $image := $image.Fill "800x1200"}}
+      {{ else }}
+        {{ $image := $image.Fill "1200x800"}}
+      {{ end }}
+      {{ $imagethumb := $image.Fill "250x250"}}
+
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('{{ $imagethumb.Permalink }}');" >
+				      <img itemprop="thumbnail" src="{{ $imagethumb.Permalink }}"  /> <img> <!--hidden if in .gallery -->
+				    </div>
+            <!---
+			      <figcaption>
+		          <p>text</p>
+			      </figcaption>
+            --->
+				    <a href="{{ $image.Permalink }}" itemprop="contentUrl"></a><!-- put <a> last so it is stacked on top -->
+				  </figure>
+				</div>
+    {{end}}  
+
+</div>
+{{ end }}

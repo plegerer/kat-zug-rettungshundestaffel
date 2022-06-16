@@ -1,8 +1,7 @@
 ---
 title: "Anstehende Veranstaltungen"
 date: 2022-05-29T00:00:00+00:00
-image_webp: images/blog/default.webp
-image: images/blog/default.jpg
+image: "images/blog/default.jpg"
 author: Hartmut Eszterwitsch
 description : "Fixer Post mit den zukünftigen Veranstaltungen"
 categories: "Veranstaltungen"

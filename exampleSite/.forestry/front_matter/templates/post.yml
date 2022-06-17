@@ -13,11 +13,11 @@ fields:
   label: author
   description: 'Ex: John Doe'
 - type: file
-  name: image_webp
-  label: image webp
-- type: file
   name: image
   label: image
+  description: Post-Bild. Nur Querformat, mind. 516x334px. Das Bild wird skaliert
+    und beschnitten, falls es größer ist
+  default: "/images/blog/default.jpg"
 - type: text
   name: description
   label: description
@@ -26,8 +26,4 @@ fields:
   type: image_gallery
   config: {}
   label: Gallery
-- name: photo_dir
-  type: text
-  config:
-    required: false
-  label: photo_dir
+  description: Mindestformat 1200x800px, Hoch- und Querformat zulässig
